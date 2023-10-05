@@ -35,7 +35,7 @@ body {
   }
   
   .column {
-    display: flex;
+    /* display: flex; */
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
@@ -229,9 +229,9 @@ body {
   
   
   .task {
-    width: 95%;
+    /* width: 95%; */
     display: flex;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     justify-content: space-between;
     align-items: left;
     margin-bottom: .3125em;
@@ -243,6 +243,11 @@ body {
     -webkit-border-radius: .375em;
     -moz-border-radius: .375em;
     cursor: grab;
+  }
+
+  .task:hover {
+    background-color: #9fc9e1;
+
   }
   
   .task.faded {
